@@ -9,3 +9,7 @@ edition = "2018"
 [dependencies]
 thiserror = "1.0.26"
 structopt = "0.3.17"
+
+[[bin]]
+path = "src/main.rs"
+name = "kaiseki"
